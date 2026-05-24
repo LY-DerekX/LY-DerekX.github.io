@@ -98,16 +98,11 @@ a:focus-visible {
 }
 
 .chinese-name {
-  display: inline-block;
+  display: inline;
   font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif;
-  font-size: 0.78em;
+  font-size: 0.95em;
   font-weight: 400;
   color: #3f5960;
-}
-
-.chinese-name.block {
-  display: block;
-  margin-top: 4px;
 }
 
 .role {
@@ -139,13 +134,31 @@ a:focus-visible {
 .social-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 9px 12px;
+  align-items: center;
+  gap: 10px;
 }
 
-.social-links a {
+.social-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
   color: #111;
-  font-size: 14px;
-  font-weight: 700;
+  text-decoration: none;
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus-visible {
+  color: #111;
+  opacity: 0.72;
+  text-decoration: none;
+}
+
+.social-icon-link img {
+  display: block;
+  width: 26px;
+  height: 26px;
 }
 
 .email-link {
@@ -153,6 +166,10 @@ a:focus-visible {
   overflow-wrap: anywhere;
   color: #222;
   font-size: 14px;
+}
+
+.email-link + .email-link {
+  margin-top: 4px;
 }
 
 .content {
