@@ -172,6 +172,13 @@ a:focus-visible {
   margin-top: 4px;
 }
 
+.address-text {
+  margin: 0;
+  color: #222;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
 .content {
   padding-bottom: 24px;
 }
