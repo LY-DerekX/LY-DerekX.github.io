@@ -205,6 +205,18 @@ a:focus-visible {
   margin-bottom: 13px;
 }
 
+.author-self {
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.author-note {
+  color: var(--muted);
+  font-size: 0.95em;
+}
+
 .content-section h3 {
   margin: 18px 0 8px;
   color: #222;
