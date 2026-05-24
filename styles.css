@@ -100,8 +100,8 @@ a:focus-visible {
 .chinese-name {
   display: inline;
   font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif;
-  font-size: 0.95em;
-  font-weight: 400;
+  font-size: 1.08em;
+  font-weight: 700;
   color: #3f5960;
 }
 
