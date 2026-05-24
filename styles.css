@@ -205,7 +205,8 @@ a:focus-visible {
   margin-bottom: 13px;
 }
 
-.author-self {
+.author-self,
+.highlight-text {
   font-weight: 700;
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
